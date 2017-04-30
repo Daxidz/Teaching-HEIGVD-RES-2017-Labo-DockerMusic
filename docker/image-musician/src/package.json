@@ -1,0 +1,30 @@
+{
+  "name": "musician",
+  "version": "1.0.0",
+  "description": "simple nodejs application which simulate a musician and send the sound and the UUID of the instrument/musician by UDP",
+  "main": "musician.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daxidz/Teaching-HEIGVD-RES-2017-Labo-DockerMusic.git"
+  },
+  "keywords": [
+    "dockermusic",
+    "lelz",
+    "kek",
+    "kuk",
+    "kik"
+  ],
+  "author": "David Truan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daxidz/Teaching-HEIGVD-RES-2017-Labo-DockerMusic/issues"
+  },
+  "homepage": "https://github.com/Daxidz/Teaching-HEIGVD-RES-2017-Labo-DockerMusic#readme",
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "uuid": "^3.0.1"
+  }
+}

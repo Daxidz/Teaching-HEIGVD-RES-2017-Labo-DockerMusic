@@ -1,0 +1,24 @@
+{
+  "name": "auditor",
+  "version": "1.0.0",
+  "description": "Simple nodejs which represent an auditor and receive by multicast the sounds made by the musicians apps and send an array of all the active musicians (json) when we connect to it by TCP",
+  "main": "auditor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daxidz/Teaching-HEIGVD-RES-2017-Labo-DockerMusic.git"
+  },
+  "author": "David Truan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daxidz/Teaching-HEIGVD-RES-2017-Labo-DockerMusic/issues"
+  },
+  "homepage": "https://github.com/Daxidz/Teaching-HEIGVD-RES-2017-Labo-DockerMusic#readme",
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "moment": "^2.18.1",
+    "net": "^1.0.2"
+  }
+}
